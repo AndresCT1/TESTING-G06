@@ -8,8 +8,9 @@ def isPrime(number):
     for check in range(3,int(math.sqrt(number))):
         if (number%check) == 0:
             return False
+    
     return True
-""" def isPrime2(number):
+def isPrime2(number):
     if number == 2:
         return True
     if number <= 1 or number % 2 == 0:
@@ -17,4 +18,4 @@ def isPrime(number):
     for check in range(3, int(math.sqrt(number)) + 1):
         if number % check == 0:
             return False
-    return True """
+    return True
